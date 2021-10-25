@@ -1,6 +1,10 @@
 <template>
   <q-page class="row items-center justify-evenly">
-    <timeline />
+    <q-card style="width: 80%">
+      <q-card-section>
+        <timeline />
+      </q-card-section>
+    </q-card>
   </q-page>
 </template>
 
