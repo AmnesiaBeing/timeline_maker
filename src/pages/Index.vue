@@ -1,49 +1,49 @@
 <template>
-  <q-page class="row items-center justify-evenly">
-    <q-card style="width: 80%">
-      <q-card-section>
-        <timeline />
-      </q-card-section>
-    </q-card>
+  <q-page class="relative-position">
+    <q-splitter v-model="lrModel" class="absolute-full" :limits="[70, 80]">
+      <template v-slot:before>
+        <q-splitter v-model="tbModel" horizontal :limits="[70, 80]">
+          <template v-slot:before>
+            <timeline-maker-canvas />
+          </template>
+          <template v-slot:after>
+            <timeline-maker-datasheet />
+          </template>
+        </q-splitter>
+      </template>
+      <template v-slot:after>
+        <timeline-maker-sidebar />
+      </template>
+    </q-splitter>
   </q-page>
 </template>
 
 <script lang="ts">
-import { Todo, Meta } from 'components/models';
-import Timeline from 'components/Timeline.vue';
+import { CanvasMeta, TextMeta } from 'components/models';
+import TimelineMakerCanvas from 'src/components/TimelineMakerCanvas.vue';
+import TimelineMakerSidebar from 'src/components/TimelineMakerSidebar.vue';
 import { defineComponent, ref } from 'vue';
 
 export default defineComponent({
   name: 'PageIndex',
-  components: { Timeline },
+  components: { TimelineMakerSidebar, TimelineMakerCanvas },
   setup() {
-    Timeline;
-    const todos = ref<Todo[]>([
-      {
-        id: 1,
-        content: 'ct1',
-      },
-      {
-        id: 2,
-        content: 'ct2',
-      },
-      {
-        id: 3,
-        content: 'ct3',
-      },
-      {
-        id: 4,
-        content: 'ct4',
-      },
-      {
-        id: 5,
-        content: 'ct5',
-      },
-    ]);
-    const meta = ref<Meta>({
-      totalCount: 1200,
+    const canvasMeta = ref<CanvasMeta>({
+      width: 480,
+      height: 270,
+      zoom: 1,
+      isHeightAuto: true,
+      isWrap: false,
     });
-    return { todos, meta };
+    const textMeta = ref<TextMeta>({
+      font: '',
+      captionSize: 12,
+      datetimeSize: 12,
+    });
+
+    return { canvasMeta, textMeta, lrModel: ref(70), tbModel: ref(20) };
   },
 });
 </script>
+
+<style scoped></style>
