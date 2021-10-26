@@ -2,7 +2,7 @@
   <q-page class="relative-position">
     <q-splitter v-model="lrModel" class="absolute-full" :limits="[70, 80]">
       <template v-slot:before>
-        <q-splitter v-model="tbModel" horizontal :limits="[70, 80]">
+        <q-splitter v-model="tbModel" horizontal :limits="[0, 50]">
           <template v-slot:before>
             <timeline-maker-canvas />
           </template>
@@ -22,11 +22,16 @@
 import { CanvasMeta, TextMeta } from 'components/models';
 import TimelineMakerCanvas from 'src/components/TimelineMakerCanvas.vue';
 import TimelineMakerSidebar from 'src/components/TimelineMakerSidebar.vue';
+import TimelineMakerDatasheet from 'src/components/TimelineMakerDatasheet.vue';
 import { defineComponent, ref } from 'vue';
 
 export default defineComponent({
   name: 'PageIndex',
-  components: { TimelineMakerSidebar, TimelineMakerCanvas },
+  components: {
+    TimelineMakerSidebar,
+    TimelineMakerCanvas,
+    TimelineMakerDatasheet,
+  },
   setup() {
     const canvasMeta = ref<CanvasMeta>({
       width: 480,

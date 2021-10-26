@@ -1,6 +1,6 @@
 <template>
   <q-card-section>
-    <q-table title="数据" :rows="rows" :columns="columns" row-key="name" />
+    <q-table title="数据" :rows="rows" :columns="columns" row-key="name" dense />
   </q-card-section>
 </template>
 
@@ -19,7 +19,7 @@ const columns = [
     name: 'label',
     align: 'left',
     label: '事件名',
-    field: 'calories',
+    field: 'label',
     sortable: true,
   },
   { name: 'datetime', label: '时间节点', field: 'datetime', sortable: true },
