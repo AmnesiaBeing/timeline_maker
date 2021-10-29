@@ -4,7 +4,7 @@
       <template v-slot:before>
         <q-splitter v-model="tbModel" horizontal :limits="[0, 50]">
           <template v-slot:before>
-            <timeline-maker-canvas />
+            <timeline-maker-canvas :canvas="canvasMeta" />
           </template>
           <template v-slot:after>
             <timeline-maker-datasheet />
@@ -12,7 +12,7 @@
         </q-splitter>
       </template>
       <template v-slot:after>
-        <timeline-maker-sidebar />
+        <timeline-maker-sidebar :canvas="canvasMeta" />
       </template>
     </q-splitter>
   </q-page>

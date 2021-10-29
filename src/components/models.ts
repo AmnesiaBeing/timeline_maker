@@ -17,3 +17,17 @@ export interface TextMeta {
   captionSize: number;
   datetimeSize: number;
 }
+
+export interface MarkerMeta {
+  url: string;
+  size: number;
+  borderColor: string;
+  fillColor: string;
+}
+
+export interface MarkersMeta {
+  normal: MarkerMeta;
+  import: MarkerMeta;
+  urgent: MarkerMeta;
+  minor: MarkerMeta;
+}

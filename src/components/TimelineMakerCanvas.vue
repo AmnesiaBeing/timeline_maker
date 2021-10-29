@@ -8,12 +8,17 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { CanvasMeta, TextMeta } from 'components/models';
+import { defineComponent, ref } from 'vue';
 import Timeline from 'components/Timeline.vue';
 
 export default defineComponent({
   name: 'TimeLineMakerCanvas',
-  props: {},
+  props: {
+    canvas: {
+      type,
+    },
+  },
   components: { Timeline },
   setup() {
     return {};
