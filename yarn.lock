@@ -1087,10 +1087,10 @@
   resolved "https://registry.npm.taobao.org/@positron/stack-trace/download/@positron/stack-trace-1.0.0.tgz#14fcc712a530038ef9be1ce6952315a839f466a8"
   integrity sha1-FPzHEqUwA475vhzmlSMVqDn0Zqg=
 
-"@quasar/app@^3.0.0":
-  version "3.1.5"
-  resolved "https://registry.npmmirror.com/@quasar/app/download/@quasar/app-3.1.5.tgz#a69f1fe1635fea37d53befc08cbacf657d926581"
-  integrity sha1-pp8f4WNf6jfVO+/AjLrPZX2SZYE=
+"@quasar/app@^3.1.8":
+  version "3.1.8"
+  resolved "https://registry.npmmirror.com/@quasar/app/download/@quasar/app-3.1.8.tgz#89fa94fc46aeda2dd9512e60aef71429fe3ededf"
+  integrity sha1-ifqU/Eau2i3ZUS5grvcUKf4+3t8=
   dependencies:
     "@quasar/babel-preset-app" "2.0.1"
     "@quasar/fastclick" "1.1.4"
@@ -1100,8 +1100,6 @@
     "@types/express" "4.17.13"
     "@types/webpack-bundle-analyzer" "4.4.1"
     "@types/webpack-dev-server" "4.3.1"
-    "@vue/compiler-sfc" "3.2.20"
-    "@vue/server-renderer" "3.2.20"
     archiver "5.3.0"
     autoprefixer "10.3.7"
     browserslist "^4.12.0"
@@ -1120,12 +1118,12 @@
     express "4.17.1"
     fast-glob "3.2.7"
     file-loader "6.2.0"
-    fork-ts-checker-webpack-plugin "6.3.3"
+    fork-ts-checker-webpack-plugin "6.4.0"
     fs-extra "10.0.0"
     hash-sum "2.0.0"
     html-minifier "4.0.0"
-    html-webpack-plugin "5.3.2"
-    inquirer "8.1.5"
+    html-webpack-plugin "5.5.0"
+    inquirer "8.2.0"
     isbinaryfile "4.0.8"
     launch-editor-middleware "2.2.1"
     lodash.debounce "4.0.8"
@@ -1140,12 +1138,12 @@
     open "7.1.0"
     ouch "2.0.0"
     postcss "^8.2.10"
-    postcss-loader "6.1.1"
+    postcss-loader "6.2.0"
     postcss-rtlcss "3.4.1"
     pretty-error "3.0.4"
     register-service-worker "1.7.2"
     sass "1.32.12"
-    sass-loader "12.1.0"
+    sass-loader "12.2.0"
     semver "7.3.5"
     table "6.7.2"
     terser-webpack-plugin "5.2.4"
@@ -1153,13 +1151,13 @@
     typescript "4.4.2"
     url-loader "4.1.1"
     vue "3.2.20"
-    vue-loader "16.5.0"
+    vue-loader "16.8.2"
     vue-router "4.0.12"
     vue-style-loader "4.1.3"
     webpack "^5.58.1"
     webpack-bundle-analyzer "4.4.2"
     webpack-chain "6.5.1"
-    webpack-dev-server "4.3.1"
+    webpack-dev-server "4.4.0"
     webpack-merge "5.8.0"
     webpack-node-externals "3.0.0"
 
@@ -1189,10 +1187,10 @@
     core-js "^3.6.5"
     core-js-compat "^3.6.5"
 
-"@quasar/extras@^1.0.0":
-  version "1.11.2"
-  resolved "https://registry.npmmirror.com/@quasar/extras/download/@quasar/extras-1.11.2.tgz#07f959cc2a6801052a07b623abf206a9e9ea10c7"
-  integrity sha1-B/lZzCpoAQUqB7Yjq/IGqenqEMc=
+"@quasar/extras@^1.11.3":
+  version "1.11.3"
+  resolved "https://registry.npmmirror.com/@quasar/extras/download/@quasar/extras-1.11.3.tgz#fdf757cefe1fd0ee7c8499cc4eea46b76bc1cd34"
+  integrity sha1-/fdXzv4f0O58hJnMTupGt2vBzTQ=
 
 "@quasar/fastclick@1.1.4":
   version "1.1.4"
@@ -1306,10 +1304,10 @@
     "@types/qs" "*"
     "@types/serve-static" "*"
 
-"@types/html-minifier-terser@^5.0.0":
-  version "5.1.2"
-  resolved "https://registry.nlark.com/@types/html-minifier-terser/download/@types/html-minifier-terser-5.1.2.tgz#693b316ad323ea97eed6b38ed1a3cc02b1672b57"
-  integrity sha1-aTsxatMj6pfu1rOO0aPMArFnK1c=
+"@types/html-minifier-terser@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.nlark.com/@types/html-minifier-terser/download/@types/html-minifier-terser-6.0.0.tgz#563c1c6c132cd204e71512f9c0b394ff90d3fae7"
+  integrity sha1-VjwcbBMs0gTnFRL5wLOU/5DT+uc=
 
 "@types/http-proxy@^1.17.5":
   version "1.17.7"
@@ -2134,7 +2132,7 @@ camel-case@^3.0.0:
     no-case "^2.2.0"
     upper-case "^1.1.1"
 
-camel-case@^4.1.1:
+camel-case@^4.1.2:
   version "4.1.2"
   resolved "https://registry.nlark.com/camel-case/download/camel-case-4.1.2.tgz#9728072a954f805228225a6deea6b38461e1bd5a"
   integrity sha1-lygHKpVPgFIoIlpt7qazhGHhvVo=
@@ -2179,7 +2177,7 @@ chardet@^0.7.0:
   resolved "https://registry.npmmirror.com/chardet/download/chardet-0.7.0.tgz?cache=0&sync_timestamp=1634639141514&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fchardet%2Fdownload%2Fchardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
   integrity sha1-kAlISfCTfy7twkJdDSip5fDLrZ4=
 
-chokidar@3.5.2, "chokidar@>=3.0.0 <4.0.0", chokidar@^3.4.2, chokidar@^3.5.1:
+chokidar@3.5.2, "chokidar@>=3.0.0 <4.0.0", chokidar@^3.4.2, chokidar@^3.5.1, chokidar@^3.5.2:
   version "3.5.2"
   resolved "https://registry.nlark.com/chokidar/download/chokidar-3.5.2.tgz?cache=0&sync_timestamp=1623763535523&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fchokidar%2Fdownload%2Fchokidar-3.5.2.tgz#dba3976fcadb016f66fd365021d91600d01c1e75"
   integrity sha1-26OXb8rbAW9m/TZQIdkWANAcHnU=
@@ -2204,10 +2202,17 @@ ci-info@3.2.0:
   resolved "https://registry.nlark.com/ci-info/download/ci-info-3.2.0.tgz#2876cb948a498797b5236f0095bc057d0dca38b6"
   integrity sha1-KHbLlIpJh5e1I28AlbwFfQ3KOLY=
 
-clean-css@^4.2.1, clean-css@^4.2.3:
+clean-css@^4.2.1:
   version "4.2.4"
   resolved "https://registry.npmmirror.com/clean-css/download/clean-css-4.2.4.tgz?cache=0&sync_timestamp=1634992314911&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fclean-css%2Fdownload%2Fclean-css-4.2.4.tgz#733bf46eba4e607c6891ea57c24a989356831178"
   integrity sha1-czv0brpOYHxokepXwkqYk1aDEXg=
+  dependencies:
+    source-map "~0.6.0"
+
+clean-css@^5.1.5:
+  version "5.2.2"
+  resolved "https://registry.npmmirror.com/clean-css/download/clean-css-5.2.2.tgz?cache=0&sync_timestamp=1634992314911&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fclean-css%2Fdownload%2Fclean-css-5.2.2.tgz#d3a7c6ee2511011e051719838bdcf8314dc4548d"
+  integrity sha1-06fG7iURAR4FFxmDi9z4MU3EVI0=
   dependencies:
     source-map "~0.6.0"
 
@@ -2293,11 +2298,6 @@ commander@^2.19.0, commander@^2.20.0:
   resolved "https://registry.npmmirror.com/commander/download/commander-2.20.3.tgz?cache=0&sync_timestamp=1634886396986&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fcommander%2Fdownload%2Fcommander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha1-/UhehMA+tIgcIHIrpIA16FMa6zM=
 
-commander@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.npmmirror.com/commander/download/commander-4.1.1.tgz?cache=0&sync_timestamp=1634886396986&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fcommander%2Fdownload%2Fcommander-4.1.1.tgz#9fd602bd936294e9e9ef46a3f4d6964044b18068"
-  integrity sha1-n9YCvZNilOnp70aj9NaWQESxgGg=
-
 commander@^6.2.0:
   version "6.2.1"
   resolved "https://registry.npmmirror.com/commander/download/commander-6.2.1.tgz?cache=0&sync_timestamp=1634886396986&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fcommander%2Fdownload%2Fcommander-6.2.1.tgz#0792eb682dfbc325999bb2b84fddddba110ac73c"
@@ -2307,6 +2307,11 @@ commander@^7.2.0:
   version "7.2.0"
   resolved "https://registry.npmmirror.com/commander/download/commander-7.2.0.tgz?cache=0&sync_timestamp=1634886396986&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fcommander%2Fdownload%2Fcommander-7.2.0.tgz#a36cb57d0b501ce108e4d20559a150a391d97ab7"
   integrity sha1-o2y1fQtQHOEI5NIFWaFQo5HZerc=
+
+commander@^8.1.0:
+  version "8.3.0"
+  resolved "https://registry.npmmirror.com/commander/download/commander-8.3.0.tgz?cache=0&sync_timestamp=1634886396986&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fcommander%2Fdownload%2Fcommander-8.3.0.tgz#4837ea1b2da67b9c616a67afbb0fafee567bca66"
+  integrity sha1-SDfqGy2me5xhamevuw+v7lZ7ymY=
 
 commondir@^1.0.1:
   version "1.0.1"
@@ -3345,10 +3350,10 @@ follow-redirects@^1.0.0:
   resolved "https://registry.nlark.com/follow-redirects/download/follow-redirects-1.14.4.tgz?cache=0&sync_timestamp=1631622163078&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ffollow-redirects%2Fdownload%2Ffollow-redirects-1.14.4.tgz#838fdf48a8bbdd79e52ee51fb1c94e3ed98b9379"
   integrity sha1-g4/fSKi73XnlLuUfsclOPtmLk3k=
 
-fork-ts-checker-webpack-plugin@6.3.3:
-  version "6.3.3"
-  resolved "https://registry.npmmirror.com/fork-ts-checker-webpack-plugin/download/fork-ts-checker-webpack-plugin-6.3.3.tgz#73a9d8e1dc5821fa19a3daedc8be7568b095c8ab"
-  integrity sha1-c6nY4dxYIfoZo9rtyL51aLCVyKs=
+fork-ts-checker-webpack-plugin@6.4.0:
+  version "6.4.0"
+  resolved "https://registry.npmmirror.com/fork-ts-checker-webpack-plugin/download/fork-ts-checker-webpack-plugin-6.4.0.tgz#057e477cf1d8b013b2ed2669437f818680289c4c"
+  integrity sha1-BX5HfPHYsBOy7SZpQ3+BhoAonEw=
   dependencies:
     "@babel/code-frame" "^7.8.3"
     "@types/json-schema" "^7.0.5"
@@ -3648,18 +3653,18 @@ html-entities@^2.3.2:
   resolved "https://registry.nlark.com/html-entities/download/html-entities-2.3.2.tgz#760b404685cb1d794e4f4b744332e3b00dcfe488"
   integrity sha1-dgtARoXLHXlOT0t0QzLjsA3P5Ig=
 
-html-minifier-terser@^5.0.1:
-  version "5.1.1"
-  resolved "https://registry.nlark.com/html-minifier-terser/download/html-minifier-terser-5.1.1.tgz#922e96f1f3bb60832c2634b79884096389b1f054"
-  integrity sha1-ki6W8fO7YIMsJjS3mIQJY4mx8FQ=
+html-minifier-terser@^6.0.2:
+  version "6.0.2"
+  resolved "https://registry.nlark.com/html-minifier-terser/download/html-minifier-terser-6.0.2.tgz#14059ad64b69bf9f8b8a33f25b53411d8321e75d"
+  integrity sha1-FAWa1ktpv5+LijPyW1NBHYMh510=
   dependencies:
-    camel-case "^4.1.1"
-    clean-css "^4.2.3"
-    commander "^4.1.1"
+    camel-case "^4.1.2"
+    clean-css "^5.1.5"
+    commander "^8.1.0"
     he "^1.2.0"
-    param-case "^3.0.3"
+    param-case "^3.0.4"
     relateurl "^0.2.7"
-    terser "^4.6.3"
+    terser "^5.7.2"
 
 html-minifier@4.0.0:
   version "4.0.0"
@@ -3674,15 +3679,15 @@ html-minifier@4.0.0:
     relateurl "^0.2.7"
     uglify-js "^3.5.1"
 
-html-webpack-plugin@5.3.2:
-  version "5.3.2"
-  resolved "https://registry.npmmirror.com/html-webpack-plugin/download/html-webpack-plugin-5.3.2.tgz?cache=0&sync_timestamp=1634296217736&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fhtml-webpack-plugin%2Fdownload%2Fhtml-webpack-plugin-5.3.2.tgz#7b04bf80b1f6fe84a6d3f66c8b79d64739321b08"
-  integrity sha1-ewS/gLH2/oSm0/Zsi3nWRzkyGwg=
+html-webpack-plugin@5.5.0:
+  version "5.5.0"
+  resolved "https://registry.npmmirror.com/html-webpack-plugin/download/html-webpack-plugin-5.5.0.tgz#c3911936f57681c1f9f4d8b68c158cd9dfe52f50"
+  integrity sha1-w5EZNvV2gcH59Ni2jBWM2d/lL1A=
   dependencies:
-    "@types/html-minifier-terser" "^5.0.0"
-    html-minifier-terser "^5.0.1"
+    "@types/html-minifier-terser" "^6.0.0"
+    html-minifier-terser "^6.0.2"
     lodash "^4.17.21"
-    pretty-error "^3.0.4"
+    pretty-error "^4.0.0"
     tapable "^2.0.0"
 
 htmlparser2@^6.1.0:
@@ -3835,10 +3840,10 @@ ini@^1.3.4:
   resolved "https://registry.npmmirror.com/ini/download/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
   integrity sha1-op2kJbSIBvNHZ6Tvzjlyaa8oQyw=
 
-inquirer@8.1.5:
-  version "8.1.5"
-  resolved "https://registry.npmmirror.com/inquirer/download/inquirer-8.1.5.tgz?cache=0&sync_timestamp=1633472964335&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Finquirer%2Fdownload%2Finquirer-8.1.5.tgz#2dc5159203c826d654915b5fe6990fd17f54a150"
-  integrity sha1-LcUVkgPIJtZUkVtf5pkP0X9UoVA=
+inquirer@8.2.0:
+  version "8.2.0"
+  resolved "https://registry.npmmirror.com/inquirer/download/inquirer-8.2.0.tgz?cache=0&sync_timestamp=1633472964335&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Finquirer%2Fdownload%2Finquirer-8.2.0.tgz#f44f008dd344bbfc4b30031f45d984e034a3ac3a"
+  integrity sha1-9E8AjdNEu/xLMAMfRdmE4DSjrDo=
   dependencies:
     ansi-escapes "^4.2.1"
     chalk "^4.1.1"
@@ -4874,7 +4879,7 @@ param-case@^2.1.1:
   dependencies:
     no-case "^2.2.0"
 
-param-case@^3.0.3:
+param-case@^3.0.4:
   version "3.0.4"
   resolved "https://registry.nlark.com/param-case/download/param-case-3.0.4.tgz#7d17fe4aa12bde34d4a77d91acfb6219caad01c5"
   integrity sha1-fRf+SqEr3jTUp32RrPtiGcqtAcU=
@@ -5040,10 +5045,10 @@ postcss-discard-overridden@^5.0.1:
   resolved "https://registry.nlark.com/postcss-discard-overridden/download/postcss-discard-overridden-5.0.1.tgz?cache=0&sync_timestamp=1621449732464&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fpostcss-discard-overridden%2Fdownload%2Fpostcss-discard-overridden-5.0.1.tgz#454b41f707300b98109a75005ca4ab0ff2743ac6"
   integrity sha1-RUtB9wcwC5gQmnUAXKSrD/J0OsY=
 
-postcss-loader@6.1.1:
-  version "6.1.1"
-  resolved "https://registry.npmmirror.com/postcss-loader/download/postcss-loader-6.1.1.tgz?cache=0&sync_timestamp=1634140473743&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fpostcss-loader%2Fdownload%2Fpostcss-loader-6.1.1.tgz#58dd0a3accd9bc87cc52eff75244db578d11301a"
-  integrity sha1-WN0KOszZvIfMUu/3UkTbV40RMBo=
+postcss-loader@6.2.0:
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/postcss-loader/download/postcss-loader-6.2.0.tgz?cache=0&sync_timestamp=1634140473743&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fpostcss-loader%2Fdownload%2Fpostcss-loader-6.2.0.tgz#714370a3f567141cf4cadcdf9575f5234d186bc5"
+  integrity sha1-cUNwo/VnFBz0ytzflXX1I00Ya8U=
   dependencies:
     cosmiconfig "^7.0.0"
     klona "^2.0.4"
@@ -5279,13 +5284,21 @@ prepend-http@^2.0.0:
   resolved "https://registry.npmmirror.com/prepend-http/download/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
 
-pretty-error@3.0.4, pretty-error@^3.0.4:
+pretty-error@3.0.4:
   version "3.0.4"
   resolved "https://registry.nlark.com/pretty-error/download/pretty-error-3.0.4.tgz?cache=0&sync_timestamp=1623342823372&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fpretty-error%2Fdownload%2Fpretty-error-3.0.4.tgz#94b1d54f76c1ed95b9c604b9de2194838e5b574e"
   integrity sha1-lLHVT3bB7ZW5xgS53iGUg45bV04=
   dependencies:
     lodash "^4.17.20"
     renderkid "^2.0.6"
+
+pretty-error@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmmirror.com/pretty-error/download/pretty-error-4.0.0.tgz#90a703f46dd7234adb46d0f84823e9d1cb8f10d6"
+  integrity sha1-kKcD9G3XI0rbRtD4SCPp0cuPENY=
+  dependencies:
+    lodash "^4.17.20"
+    renderkid "^3.0.0"
 
 printj@~1.1.0:
   version "1.1.2"
@@ -5343,10 +5356,10 @@ qs@6.7.0:
   resolved "https://registry.nlark.com/qs/download/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
   integrity sha1-QdwaAV49WB8WIXdr4xr7KHapsbw=
 
-quasar@^2.0.0:
-  version "2.1.9"
-  resolved "https://registry.npmmirror.com/quasar/download/quasar-2.1.9.tgz#66397ba35cf938ce16c09f81a0c6d4508667f09e"
-  integrity sha1-Zjl7o1z5OM4WwJ+BoMbUUIZn8J4=
+quasar@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.npmmirror.com/quasar/download/quasar-2.2.2.tgz?cache=0&sync_timestamp=1635536125957&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fquasar%2Fdownload%2Fquasar-2.2.2.tgz#fc3a82a3c2aef3c3ef2db11b9be4d23b0c8333a0"
+  integrity sha1-/DqCo8Ku88PvLbEbm+TSOwyDM6A=
 
 querystring@0.2.0:
   version "0.2.0"
@@ -5498,6 +5511,17 @@ renderkid@^2.0.6:
     lodash "^4.17.21"
     strip-ansi "^3.0.1"
 
+renderkid@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmmirror.com/renderkid/download/renderkid-3.0.0.tgz#5fd823e4d6951d37358ecc9a58b1f06836b6268a"
+  integrity sha1-X9gj5NaVHTc1jsyaWLHwaDa2Joo=
+  dependencies:
+    css-select "^4.1.3"
+    dom-converter "^0.2.0"
+    htmlparser2 "^6.1.0"
+    lodash "^4.17.21"
+    strip-ansi "^6.0.1"
+
 require-from-string@^2.0.2:
   version "2.0.2"
   resolved "https://registry.nlark.com/require-from-string/download/require-from-string-2.0.2.tgz#89a7fdd938261267318eafe14f9c32e598c36909"
@@ -5615,10 +5639,10 @@ safe-buffer@>=5.1.0, safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@~5.2.0:
   resolved "https://registry.nlark.com/safer-buffer/download/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
 
-sass-loader@12.1.0:
-  version "12.1.0"
-  resolved "https://registry.npmmirror.com/sass-loader/download/sass-loader-12.1.0.tgz?cache=0&sync_timestamp=1634035952677&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fsass-loader%2Fdownload%2Fsass-loader-12.1.0.tgz#b73324622231009da6fba61ab76013256380d201"
-  integrity sha1-tzMkYiIxAJ2m+6Yat2ATJWOA0gE=
+sass-loader@12.2.0:
+  version "12.2.0"
+  resolved "https://registry.npmmirror.com/sass-loader/download/sass-loader-12.2.0.tgz#b370010fb0ababae2ef9c6c89e05d6c6debc6042"
+  integrity sha1-s3ABD7Crq64u+cbIngXWxt68YEI=
   dependencies:
     klona "^2.0.4"
     neo-async "^2.6.2"
@@ -5840,7 +5864,7 @@ source-map-js@^0.6.2:
   resolved "https://registry.nlark.com/source-map-js/download/source-map-js-0.6.2.tgz#0bb5de631b41cfbda6cfba8bd05a80efdfd2385e"
   integrity sha1-C7XeYxtBz72mz7qL0FqA79/SOF4=
 
-source-map-support@~0.5.12, source-map-support@~0.5.20:
+source-map-support@~0.5.20:
   version "0.5.20"
   resolved "https://registry.nlark.com/source-map-support/download/source-map-support-0.5.20.tgz?cache=0&sync_timestamp=1631179636992&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fsource-map-support%2Fdownload%2Fsource-map-support-0.5.20.tgz#12166089f8f5e5e8c56926b377633392dd2cb6c9"
   integrity sha1-EhZgifj15ejFaSazd2Mzkt0stsk=
@@ -6063,15 +6087,6 @@ terser-webpack-plugin@5.2.4, terser-webpack-plugin@^5.1.3:
     serialize-javascript "^6.0.0"
     source-map "^0.6.1"
     terser "^5.7.2"
-
-terser@^4.6.3:
-  version "4.8.0"
-  resolved "https://registry.nlark.com/terser/download/terser-4.8.0.tgz?cache=0&sync_timestamp=1632229839325&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fterser%2Fdownload%2Fterser-4.8.0.tgz#63056343d7c70bb29f3af665865a46fe03a0df17"
-  integrity sha1-YwVjQ9fHC7KfOvZlhlpG/gOg3xc=
-  dependencies:
-    commander "^2.20.0"
-    source-map "~0.6.1"
-    source-map-support "~0.5.12"
 
 terser@^5.7.2:
   version "5.9.0"
@@ -6355,10 +6370,10 @@ vue-i18n@^9.0.0:
     "@intlify/vue-devtools" "9.1.9"
     "@vue/devtools-api" "^6.0.0-beta.7"
 
-vue-loader@16.5.0:
-  version "16.5.0"
-  resolved "https://registry.npmmirror.com/vue-loader/download/vue-loader-16.5.0.tgz#09c4e0712466899e34b99a686524f19165fb2892"
-  integrity sha1-CcTgcSRmiZ40uZpoZSTxkWX7KJI=
+vue-loader@16.8.2:
+  version "16.8.2"
+  resolved "https://registry.npmmirror.com/vue-loader/download/vue-loader-16.8.2.tgz#78552d6558207a93f09e4fb68b068d44964eb740"
+  integrity sha1-eFUtZVggepPwnk+2iwaNRJZOt0A=
   dependencies:
     chalk "^4.1.0"
     hash-sum "^2.0.0"
@@ -6453,14 +6468,14 @@ webpack-dev-middleware@^5.2.1:
     range-parser "^1.2.1"
     schema-utils "^3.1.0"
 
-webpack-dev-server@4.3.1:
-  version "4.3.1"
-  resolved "https://registry.npmmirror.com/webpack-dev-server/download/webpack-dev-server-4.3.1.tgz?cache=0&sync_timestamp=1633371105074&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fwebpack-dev-server%2Fdownload%2Fwebpack-dev-server-4.3.1.tgz#759d3337f0fbea297fbd1e433ab04ccfc000076b"
-  integrity sha1-dZ0zN/D76il/vR5DOrBMz8AAB2s=
+webpack-dev-server@4.4.0:
+  version "4.4.0"
+  resolved "https://registry.npmmirror.com/webpack-dev-server/download/webpack-dev-server-4.4.0.tgz#10ec17088f840c9ccb2ebb0b43c49ec293206f7e"
+  integrity sha1-EOwXCI+EDJzLLrsLQ8SewpMgb34=
   dependencies:
     ansi-html-community "^0.0.8"
     bonjour "^3.5.0"
-    chokidar "^3.5.1"
+    chokidar "^3.5.2"
     colorette "^2.0.10"
     compression "^1.7.4"
     connect-history-api-fallback "^1.6.0"
