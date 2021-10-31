@@ -8,26 +8,24 @@ export interface CanvasMeta {
 
 export interface AxisMeta {
   axisWidth: number;
-  markerWidth: number;
-  markerHeight: number;
 }
 
-export interface TextMeta {
+export interface FontMeta {
   font: string;
-  captionSize: number;
-  datetimeSize: number;
+  size: number;
 }
 
 export interface MarkerMeta {
   url: string;
-  size: number;
   borderColor: string;
   fillColor: string;
+  width: number;
+  height: number;
 }
 
-export interface MarkersMeta {
-  normal: MarkerMeta;
-  import: MarkerMeta;
-  urgent: MarkerMeta;
-  minor: MarkerMeta;
+export interface NodeInfo {
+  caption: string;
+  marker: MarkerMeta;
+  font: FontMeta;
+  datetime: string;
 }

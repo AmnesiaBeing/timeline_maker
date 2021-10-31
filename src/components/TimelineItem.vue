@@ -1,8 +1,8 @@
 <template>
-  <li class="mousearea">
+  <li class="actionarea">
     <div class="axis" />
     <div class="caption">{{ caption }}<br />{{ extra }}</div>
-    <triangle class="mark" theme="filled" size="12" fill="#333" />
+    <Marker class="mark" type="triangle" :size="12" fill="#000" stroke="#eee"/>
     <div class="datetime">{{ datetime }}</div>
   </li>
 </template>
@@ -10,7 +10,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 
-import { Triangle } from '@icon-park/vue-next';
+import Marker from 'src/components/Marker.vue'
 
 export default defineComponent({
   name: 'TimeLineItem',
@@ -20,7 +20,7 @@ export default defineComponent({
     value: Number,
     extra: String,
   },
-  components: { Triangle },
+  components: { Marker },
   setup() {
     return {};
   },
@@ -28,13 +28,9 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.timeline {
-  display: flex;
-  padding: 0;
-}
 .timeline li {
   display: block;
-  flex: v-bind(value);
+  flex-grow: v-bind(value);
   position: relative;
 }
 .timeline .caption {
@@ -51,7 +47,7 @@ export default defineComponent({
   left: 50%;
   top: 50%;
   position: absolute;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(12px);
 }
 .timeline .axis {
   width: 100%;
@@ -64,7 +60,7 @@ export default defineComponent({
   top: 50%;
   left: 50%;
   position: absolute;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(-50%);
 }
 .timeline li:last-child .axis::after {
   position: absolute;
@@ -77,8 +73,10 @@ export default defineComponent({
   right: -6px;
   bottom: -5px;
 }
-.timeline .mousearea:hover {
+.timeline .actionarea:hover {
   cursor: pointer;
   background: yellow;
+}
+.timeline .actionarea {
 }
 </style>
