@@ -8,15 +8,16 @@
               <span class="text-h6">画布</span>
             </q-card-section>
             <div class="canvas">
-              <ul class="timeline">
-                <timeline-item
+              <q-list class="timeline">
+                <!-- <timeline-item
                   v-for="node in nodes"
                   v-bind:key="node.datetime"
                   :caption="node.caption"
                   value="1"
                   :datetime="node.datetime"
-                />
-              </ul>
+                  :active="activeNodeIndex"
+                /> -->
+              </q-list>
             </div>
           </template>
           <template v-slot:after>
@@ -172,13 +173,17 @@
 </template>
 
 <script lang="ts">
-import { CanvasMeta, NodeInfo } from 'components/models';
+import { CanvasMeta, NodeInfo, NodeInfos } from 'components/models';
 import { defineComponent, ref } from 'vue';
 import TimelineItem from 'src/components/TimelineItem.vue';
 
+const nodes = new NodeInfos();
+
+nodes.add('ABC', '2021/11/02');
+
 export default defineComponent({
   name: 'PageIndex',
-  components: { TimelineItem },
+  components: {},
   setup() {
     return {
       canvasMeta: ref<CanvasMeta>({
@@ -188,38 +193,8 @@ export default defineComponent({
         isHeightAuto: true,
         isWrap: false,
       }),
-      nodes: ref<NodeInfo[]>([
-        {
-          caption: 'abc',
-          marker: {
-            url: 'string',
-            borderColor: '#000',
-            fillColor: 'null',
-            width: 12,
-            height: 12,
-          },
-          font: {
-            font: '',
-            size: 12,
-          },
-          datetime: '2021/10/31',
-        },
-        {
-          caption: 'def',
-          marker: {
-            url: 'string',
-            borderColor: '#000',
-            fillColor: 'null',
-            width: 12,
-            height: 12,
-          },
-          font: {
-            font: '',
-            size: 12,
-          },
-          datetime: '2021/1/18',
-        },
-      ]),
+      activeNodeIndex: ref(0),
+      // nodes: ref<nodes>(),
       lrModel: ref(80),
       tbModel: ref(60),
       myLocale: {
@@ -241,7 +216,7 @@ export default defineComponent({
 });
 </script>
 
-<style>
+<style scoped>
 .canvas {
   width: calc(v-bind('canvasMeta.width') * 1px);
   height: calc(v-bind('canvasMeta.height') * 1px);
@@ -256,5 +231,8 @@ export default defineComponent({
   height: 100%;
   display: flex;
   flex-flow: row wrap;
+}
+.test {
+  background: green;
 }
 </style>

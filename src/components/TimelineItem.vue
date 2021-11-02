@@ -1,10 +1,10 @@
 <template>
-  <li class="actionarea">
+  <q-item clickable :active="true" active-class="active" class="actionarea">
     <div class="axis" />
-    <div class="caption">{{ caption }}<br />{{ extra }}</div>
+    <div class="caption">{{ caption }}</div>
     <Marker class="mark" type="triangle" :size="12" fill="#000" stroke="#eee"/>
     <div class="datetime">{{ datetime }}</div>
-  </li>
+  </q-item>
 </template>
 
 <script lang="ts">
@@ -18,7 +18,7 @@ export default defineComponent({
     caption: String,
     datetime: String,
     value: Number,
-    extra: String,
+    active: Boolean,
   },
   components: { Marker },
   setup() {
@@ -28,10 +28,12 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.timeline li {
+.timeline .actionarea {
+  color: white;
   display: block;
   flex-grow: v-bind(value);
   position: relative;
+  padding: 0;
 }
 .timeline .caption {
   text-align: center;
@@ -62,7 +64,7 @@ export default defineComponent({
   position: absolute;
   transform: translateX(-50%) translateY(-50%);
 }
-.timeline li:last-child .axis::after {
+.timeline .actionarea:last-child .axis::after {
   position: absolute;
   width: 0;
   height: 0;
@@ -73,10 +75,7 @@ export default defineComponent({
   right: -6px;
   bottom: -5px;
 }
-.timeline .actionarea:hover {
-  cursor: pointer;
-  background: yellow;
-}
-.timeline .actionarea {
+.active {
+  background: gray;
 }
 </style>
